@@ -1,0 +1,79 @@
+		body{
+			text-align:center;
+			background:#111111;
+			margin-top:5%;
+			color:#FFF;
+			font-family:'微軟正黑體';
+		}
+		input{
+			outline:0px;
+		}
+		input[name="url"]{
+			color:#ededed;
+			padding:10px;
+			font-size:1.2em;
+			width:300px;
+			border: 2px rgba(255, 255, 255, 0.9) solid;
+			background:transparent;
+		}
+		input[name="submit"]{
+			cursor:pointer;
+			margin-top:20px;
+			color:#ededed;
+			padding:10px;
+			font-size:1em;
+			width:85px;
+			border: 2px rgba(255, 255, 255, 0.9) solid;
+			background:transparent;
+		}
+		input[name="submit"]:hover{
+			background:rgba(255, 255, 255, 0.1);
+		}
+		a{
+			margin-top:20px;
+			display:inline-block;
+			cursor:pointer;
+			color:#ededed;
+			padding:10px;
+			font-size:1em;
+			width:85px;
+			border: 2px rgba(255, 255, 255, 0.9) solid;
+			background:transparent;
+			text-decoration:none;
+		}
+		a:hover{
+			background:rgba(255, 255, 255, 0.1);
+		}
+		a.about{
+			width:auto;
+			padding:6px;
+		}
+		a.download{
+			display:inline-block;
+			width:auto;
+			height:auto;
+			margin:10px 5px;
+		}
+		a.download img{
+			width:180px;
+			height:180px;
+		}
+		
+		span{
+			display:inline-block;
+			font-size:32px;
+			margin-bottom:15px;
+		}
+		#loading{
+			position:fixed;
+			left:0px;
+			bottom:0px;
+		}
+		#loadingImg{
+			display:none;
+		}
+		@media screen and (max-width: 480px){
+			span{
+				font-size:24px;
+			}
+		}
